@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-commerce Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Home -->
+    <section id="header">
+      <a href="#"><img src="img/logo.png"  alt="" /></a>
+
+      <div>
+        <ul id="navbar">
+          <li><a  href="index.html">Home</a></li>
+          <li><a class="active" href="shop.html">Shop</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li id="lg-bag">
+            <a href="cart.html"><i class="ri-shopping-bag-line"></i></a>
+          </li>
+          <a href="#" id="close"><i class="ri-close-line"></i></i></a>
+        </ul>
+      </div>
+      <div id="mobile">
+      <a href="cart.html"><i class="ri-shopping-bag-line"></i></a>
+
+        <i class="ri-menu-line" id="bar"></i>
+      </div>
+
+      </div>
+    </section>
+    <section id="prodetails" class="section-p1">
+        <div class="single-pro-image" id="fy">
+            <img  src="img/products/f1.jpg " width="100%" id="MainImg" alt="">
+            <div class="small-img-group">
+            <div class="small-img-col">
+                    <img src="img/products/f1.jpg" width="100%" class="small-img" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="img/products/f2.jpg" width="100%" class="small-img" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="img/products/f3.jpg" width="100%" class="small-img" alt="">
+                </div>                <div class="small-img-col">
+                    <img src="img/products/f4.jpg" width="100%" class="small-img" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="single-pro-details">
+            <h6>Home / T-Shirt</h6>
+            <h4>Men's Fashion T Shirt</h4>
+            <h2>&#8377;139.00</h2>
+            <select>
+                <option>Select Size</option>
+                <option>XL</option>
+                <option>XXL</option>
+                <option>Small</option>
+                <option>Large</option>
+            </select>
+            <input type="number" value="1">
+            
+
+              <button class="normal" id="cartBtn" onclick="addToCart('Mens Fashion T Shirt', 'Clothing', 139.0, 'img/products/f1.jpg ')">Add to Cart</button>
+
+            <button class="normal" id="buy_now" onclick="window.location.href='buy.html'">Buy Now</button>
+            <h4> Product Details</h4>
+            <span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam animi dolor praesentium, aut architecto id! Libero eum pariatur magni illo est ad incidunt. Consectetur sint excepturi ab totam numquam ipsum. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit excepturi neque, vitae fuga ex amet nam sunt eum laborum, voluptatem autem maiores id repellat sequi nostrum blanditiis beatae, doloremque aperiam.</span>
+
+        </div>
+
+    </section>
+
+
+        <section id="product1" class="section-p1">
+      <h2>Featured Products</h2>
+      <p>Summer Collection New Morden Design</p>
+      <div class="pro-container">
+        <div class="pro">
+          <img src="img/products/n1.jpg" />
+          <div class="des">
+            <span>SpaceWave</span>
+            <h5>Cosmic Astronaut Tee</h5>
+            <div class="star">
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-line"></i>
+            </div>
+            <h4>&#8377;72</h4>
+          </div>
+          <a href="#"><i class="ri-shopping-cart-line cart"></i></a>
+        </div>
+
+        <div class="pro">
+          <img src="img/products/n2.jpg" />
+          <div class="des">
+            <span>UrbanRoots</span>
+            <h5>Sunset Safari Tee</h5>
+            <div class="star">
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-line"></i>
+              <i class="ri-star-line"></i>
+            </div>
+            <h4>&#8377;65</h4>
+          </div>
+          <a href="#"><i class="ri-shopping-cart-line cart"></i></a>
+        </div>
+
+        <div class="pro">
+          <img src="img/products/n3.jpg" />
+          <div class="des">
+            <span>Leaf & Co.</span>
+            <h5>Botanic Breeze Shirt</h5>
+            <div class="star">
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-line"></i>
+            </div>
+            <h4>&#8377;80</h4>
+          </div>
+          <a href="#"><i class="ri-shopping-cart-line cart"></i></a>
+        </div>
+
+        <div class="pro">
+          <img src="img/products/n4.jpg" />
+          <div class="des">
+            <span>FloralDen</span>
+            <h5>Vintage Bloom Burst</h5>
+            <div class="star">
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-line"></i>
+              <i class="ri-star-line"></i>
+              <i class="ri-star-line"></i>
+            </div>
+            <h4>&#8377;58</h4>
+          </div>
+          <a href="#"><i class="ri-shopping-cart-line cart"></i></a>
+        </div>
+
+       
+      </div>
+    </section>
+
+
+
+
+
+
+
+    <!-- NewsLetter -->
+    <section id="newsletter" class="section-p1 section-m1">
+      <div class="newstext">
+        <h4>Sign Up For Newsletters</h4>
+        <p>
+          Get E-mail updates about our latest shop and
+          <span>special offers.</span>
+        </p>
+      </div>
+      <div class="form">
+        <input type="text" placeholder="Your email address" />
+        <button class="normal">Sign Up</button>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="section-p1">
+      <div class="col">
+        <img src="img/logo.png" class="logo"/>
+        <h4>Contact</h4>
+        <p><strong>Address: </strong>Lakshmi Road, Marunji, Hinjewadi Pune</p>
+        <p><strong>Phone: </strong>+91 9673201864</p>
+        <p><strong>Hours: </strong>08:00 AM - 09:00 PM</p>
+        <div class="follow">
+        <h4>Follow us</h4>
+        <div class="icon">
+          <i class="ri-facebook-fill"></i>
+          <i class="ri-twitter-line"></i>
+          <i class="ri-instagram-fill"></i>
+          <i class="ri-pinterest-line"></i>
+          <i class="ri-youtube-fill"></i>
+        </div>
+      </div>
+      </div>
+
+      <div class="col">
+        <h4>About</h4>
+        <a href="#">About Us</a>
+        <a href="#">Delivery Information</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Condition</a>
+        <a href="#">Contact Us</a>
+      </div>
+
+      <div class="col">
+        <h4>About</h4>
+        <a href="#">My Account</a>
+        <a href="#">Sign In</a>
+        <a href="#">View Cart</a>
+        <a href="#">My Wishlist</a>
+        <a href="#">Track My Oredr</a>
+        <a href="#">Help</a>
+      </div>
+
+      <div class="col install">
+        <h4>Install App</h4>
+        <p>From App Store or Google Play</p>
+        <div class="row">
+          <img src="img/pay/app.jpg" />
+          <img src="img/pay/play.jpg" />
+        </div>
+        <p>Secured Payment Gateways</p>
+        <img src="img/pay/pay.png" />
+      </div>
+      <div class="copyright">
+        <p>© 2025 E-commerce | Designed by Arti ♥</p>
+
+      </div>
+    </footer>
+
+    <script>
+        var MainImg = document.getElementById("MainImg");
+        var smallimg = document.getElementsByClassName("small-img");
+
+        smallimg[0].onclick = function(){
+            MainImg.src = smallimg[0].src;
+        }
+        smallimg[1].onclick = function(){
+            MainImg.src = smallimg[1].src;
+        }        
+        smallimg[2].onclick = function(){
+            MainImg.src = smallimg[2].src;
+        }        
+        smallimg[3].onclick = function(){
+            MainImg.src = smallimg[3].src;
+        }
+        </script>
+        
+  <script src="script.js"></script> 
+<div id="successAlert" style="display:none; position: fixed; top: 20px; left: 50%; transform: translateX(-50%); z-index: 1000; background-color: #d4edda; color: #155724; padding: 10px 20px; border: 1px solid #c3e6cb; border-radius: 5px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+  Product added to cart successfully!
+</div>
+
+
+<!-- <script>
+  function addToCart(name, category, price, imageUrl) {
+    fetch('http://localhost:8080/api/cart', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+        name: name,
+        category: category,
+        price: price,
+        imageUrl: imageUrl
+      })
+    })
+    .then(response => response.json())
+    .then(data => {
+      alert("Product added to cart successfully!");
+      console.log(" Cart response:", data);
+    })
+    .catch(error => {
+      alert("Failed to add product to cart.");
+      console.error("Error:", error);
+    });
+  }
+</script> -->
+
+<script>
+  function showSuccessAlert() {
+    const alertBox = document.getElementById("successAlert");
+    alertBox.style.display = "block";
+
+  
+    setTimeout(() => {
+      alertBox.style.display = "none";
+    }, 3000);
+  }
+
+  function addToCart(name, category, price, imageUrl) {
+  fetch('http://localhost:8080/api/cart', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify({
+      name: name,
+      category: category,
+      price: price,
+      imageUrl: imageUrl
+    })
+  })
+  .then(response => response.json())
+  .then(data => {
+    showSuccessAlert();
+    console.log("Cart response:", data);
+
+    
+const cartBtn = document.getElementById("cartBtn");
+cartBtn.innerText = "Go to Cart";
+cartBtn.style.backgroundColor = "#B8B8B8"; 
+cartBtn.style.color = "#fff"; 
+cartBtn.style.border = "none";
+cartBtn.style.transition = "0.3s ease";
+
+    cartBtn.onclick = () => {
+      window.location.href = "cart.html";
+    };
+  })
+  .catch(error => {
+    alert("Failed to add product to cart.");
+    console.error("Error:", error);
+  });
+}
+
+  
+</script>
+
+  </body>
+</html>
